@@ -1,0 +1,34 @@
+.container{
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.sidebar{
+  width: 10%;
+  height: calc(100% - 20px);
+  margin: 10px;
+  background-color: #181c2c;
+  box-sizing: border-box;
+}
+
+.main-content{
+  margin: 10px;
+  flex: 1;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.sidebar-link{
+  list-style: none;
+  color: #FFF;
+  display: flex;
+  margin: 20px;
+}
+
+.sidebar-link > span {
+  padding-left: 10px;
+}

@@ -23,6 +23,8 @@ dd {
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
+  margin: 0;
+  padding: 0px;
 }
 
 /* Set core root defaults */
@@ -71,4 +73,10 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+body {
+  background-color: #18141c;
+  display: flex;
+  flex-direction: column;
 }
